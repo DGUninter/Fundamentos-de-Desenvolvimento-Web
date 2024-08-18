@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            padding: 20px;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #506e6a;
+        }
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            gap: 20px;
+            font-size: large;
+        }
+        .imagem_ {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+        }
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #506e6a;
+            color: white;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            color: rgb(7, 94, 94);
+        }
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506e63 1px;
+            border-radius: 1rem;
+        }
+        li {
+            float:left
+        }
+        a:hover {
+            background-color: #53644f;
+            color: white;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+            .imagem_ {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Biografia Leonardo da Vinci</h1>
+        <br>
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Biografia</a></li>
+            <li><a href="Obras.html">Principais Obras</a></li>
+            <li><a href="Curiosidades.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_">
+            <img src="Leo.jpeg">
+            <div class="infos">
+                <p><strong>Ocupação</strong> Pintor Italiano</p>
+                <p><strong>Data de Nascimento</strong> 15/04/1452</p>
+                <p><strong>Data Morte</strong> 02/05/1519 (aos 67 anos)</p>
+            </div>
+        </aside>
+        <section class="principal">
+            <h1>Curiosidades</h1>
+            <h3>Invenções de Leonardo da Vinci</h3>
+
+            <p> Algumas das invenções de Leonardo da Vinci.
+                Leonardo da Vinci ficou conhecido por elaborar uma série de invenções baseadas no amplo conhecimento que ele tinha de diferentes áreas. O artista, além de tudo, tinha bons conhecimentos de geometria, anatomia humana, botânica, engenharia e outras áreas.            
+                As invenções propostas por Leonardo da Vinci foram analisadas, e algumas delas foram demonstradas incapazes de ser funcionais. Outras, no entanto, eram funcionais e reforçam que Leonardo da Vinci era uma figura com uma enorme genialidade. Entre as invenções que ele propôs estão:
+            </p>
+                
+                <ul>
+                    <li>o uso da energia solar para aquecer a água;<br>
+                
+                    <li>um meio de transporte que voasse semelhante a um helicóptero;</li><br>
+                
+                    <li>uma máquina de guerra que se assemelhava a um tanque;</li><br>
+                
+                    <li>autômatos (robôs);</li><br>
+                
+                    <li>um objeto que amenizasse quedas semelhante a um paraquedas;</li><br>
+                
+                    <li>trajes de mergulho.</li><br>
+                </ul>
+            
+                
+            <p><h3>Por que Leonardo da Vinci foi tão importante?</h3>
+                Leonardo da Vinci é uma figura tão notável porque, segundo muitos historiadores, foi aquele que mais bem manifestou os ideais do Renascimento, possuindo amplos conhecimentos, sendo extremamente versátil e um dos grandes artistas de todos os tempos, reproduzindo e criando técnicas de desenho com perfeição.
+                
+                <h3>Qual o legado de Leonardo da Vinci?</h3>
+                O legado que Leonardo da Vinci deixou foi o de ser um dos intelectuais e artistas mais importantes da história, deixando para a humanidade algumas das obras mais belas que existem, mas também um amplo conhecimento em diversas áreas e que foram fundamentais na posteridade. A obra de arte mais conhecida de toda a história também é de Leonardo da Vinci. Essa obra é Mona Lisa, exposta no Museu do Louvre, em Paris.
+                
+                <h3>Frases de Leonardo da Vinci</h3>
+                “Quando eu pensar que aprendi a viver, terei aprendido a morrer.”
+                
+                “Não há coisa que mais nos engane do que o nosso juízo.”
+                
+                “A lei suprema da arte é a representação do belo.”
+                
+                “A necessidade é a melhor mestra e guia da natureza. A necessidade é terna e inventora, o eterno freio e lei da natureza.”
+                
+                <h3>Curiosidades sobre Leonardo da Vinci</h3>
+                Os pesquisadores apontam que Leonardo da Vinci pode ter tido casos amorosos com os seus assistentes.
+                
+                Leonardo da Vinci fez desenhos bastante precisos sobre a anatomia e estrutura dos corações humanos.
+                
+                A máquina voadora que da Vinci projetou não seria capaz de voar, segundo pesquisadores modernos."
+                
+            </p>
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Desenvolvido para fins educacionais</h1>
+        <h3>Fonte:</h3>
+        <a href="https://brasilescola.uol.com.br/biografia/leonardo-vinci.htm#:~:text=Leonardo%20da%20Vinci%20foi%20um%20grande%20nome%20do%20Renascimento%2C%20conhecido,famosa%20da%20hist%C3%B3ria%3A%20Mona%20Lisa.">Brasil Escola</a>
+    </footer>
+</body>
+</html>
